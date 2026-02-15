@@ -127,9 +127,9 @@ const ProjectGrid: React.FC = () => {
                       }}
                       className={`text-[9px] px-2.5 py-0.5 border font-bold transition-all cursor-crosshair tracking-widest ${
                         hoveredTag === tag 
-                          ? 'bg-[#002fa7] text-white border-white scale-110 translate-y-[-2px]' 
-                          : 'border-white/20 opacity-70 hover:opacity-100 hover:border-white'
-                      } group-hover:border-[#002fa7] group-hover:text-[#002fa7]`}
+                          ? 'bg-[#002fa7] text-[#C2F210] border-white scale-110 translate-y-[-2px]' 
+                          : 'border-white/20 opacity-70 hover:opacity-100 hover:border-white hover:!text-[#C2F210] group-hover:border-[#002fa7] group-hover:text-[#002fa7]'
+                      }`}
                     >
                       {tag}
                     </span>

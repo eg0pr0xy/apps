@@ -47,23 +47,23 @@ export const PROJECTS: Project[] = [
   {
     id: 'minimalist',
     name: 'MINIMALIST',
-    description: 'Raymarching engine implemented in a single fragment shader. Explores non-euclidean geometry.',
+    description: 'A minimal interface for generating high-fidelity abstract geometric art, inspired by the pioneers of the Op Art movement.',
     url: 'https://minimalist.sternbauer.com/',
-    tags: ['RAYMARCHING', 'GLSL', 'SHADER'],
+    tags: ['MINIMALISM', 'OPT-ART', 'SYNTHETIC_DESIGN'],
     imageUrl: imagePath('minimalist.jpg')
   },
    {
     id: 'constructivist',
     name: 'CONSTRUCTIVIST',
-    description: 'Raymarching engine implemented in a single fragment shader. Explores non-euclidean geometry.',
+    description: 'Real-time generative engine for producing constructivist graphics through shader-based geometric composition. Functions as a prototype for synthetic design systems, where abstraction, precision and controlled glitch emerge from algorithmic structure rather than predefined layouts.',
     url: 'https://constructivist.sternbauer.com/',
-    tags: ['RAYMARCHING', 'GLSL', 'SHADER'],
+    tags: ['CONSTRUCTIVISM', 'GENERATIVE_GRAPHICS', 'SYNTHETIC_DESIGN'],
     imageUrl: imagePath('constructivist.jpg')
   },
      {
     id: 'hal',
     name: 'HAL',
-    description: 'Raymarching engine implemented in a single fragment shader. Explores non-euclidean geometry.',
+    description: 'A futuristic, intelligent internet radio player featuring a HAL 9000–inspired interface with real-time radial audio visualization. Supports global radio stream search, live international station discovery, and built-in recording for capturing broadcasts directly within the player.',
     url: 'https://hal.sternbauer.com/',
     tags: ['WEB_RADIO', 'HAL', 'EXPERIMENTAL_RADIO'],
     imageUrl: imagePath('hal.jpg')
@@ -73,9 +73,9 @@ export const PROJECTS: Project[] = [
 export const SOCIALS = [
   { name: 'GITHUB', url: 'https://github.com/eg0pr0xy/', handle: '@studio-neue-episteme' },
   { name: 'X', url: 'https://x.com/neueepisteme', handle: '@neue_episteme' },
-  { name: 'LINKEDIN', url: 'https://linkedin.com', handle: 'neue-episteme' },
-  { name: 'DISCORD', url: 'https://signal.org', handle: 'ENCRYPTED' },
-  { name: 'RESEARCH_GATE', url: 'https://researchgate.net', handle: 'EPST_LABS' },
+  { name: 'LINKEDIN', url: 'https://www.linkedin.com/in/sternbauer/', handle: 'sternbauer' },
+  { name: 'DISCORD', url: 'https://discord.com/bazbauer#3028', handle: 'ENCRYPTED' },
+  { name: 'YOUTUBE', url: 'https://www.youtube.com/@sternbauer', handle: '@sternbauer' },
   { name: 'E-MAIL', url: 'mailto:neueepisteme@gmail.com', handle: 'studio@neueepisteme' }
 ];
 

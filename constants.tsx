@@ -1,6 +1,8 @@
 
 import { Project } from './types';
 
+const imagePath = (fileName: string) => `${import.meta.env.BASE_URL}images/${fileName}`;
+
 export const PROJECTS: Project[] = [
   {
     id: 'godfeeder',
@@ -8,7 +10,7 @@ export const PROJECTS: Project[] = [
     description: 'An experimental granular synthesis instrument and signal ecology engine. GODFEEDER sacrifices live and streamed audio into stochastic grain clouds, translating broadcast fragments into evolving spectral architectures. Built with Web Audio, custom DSP chains and real-time ASCII diagnostics.',
     url: 'https://linktr.ee/sternbauer',
     tags: ['WEB_AUDIO', ' GRANULAR_SYNTHESIS', 'EXPERIMENTAL_AUDIO'],
-    imageUrl: '/images/godfeeder.jpg'
+    imageUrl: imagePath('godfeeder.jpg')
   },
   {
     id: 'ascii-astrit',
@@ -16,7 +18,7 @@ export const PROJECTS: Project[] = [
     description: 'A deterministic ASCII rendering engine for webcam and video input. Converts luminance fields into typographic particle systems using temporal cohesion, character inertia and semantic ramp control. Designed as an artist-grade text-based imaging instrument.',
     url: 'https://eg0pr0xy.github.io/ASCII-ASTRIT/',
     tags: ['ASCII', 'TYPESCRIPT', 'WEBGL'],
-    imageUrl: '/images/astrit.jpg'
+    imageUrl: imagePath('astrit.jpg')
   },
   {
     id: 'errorhead',
@@ -24,7 +26,7 @@ export const PROJECTS: Project[] = [
     description: 'A real-time glitch and datamosh laboratory for extreme video deformation. Combines compression corruption, analog sync distortion, feedback systems and audio-triggered modulation into a modular signal destruction framework.',
     url: 'https://eg0pr0xy.github.io/errorhead/',
     tags: ['GLITCH_ART', 'DATAMOSH', 'VIDEO_PROCESSING'],
-    imageUrl: '/images/errorhead.jpg'
+    imageUrl: imagePath('errorhead.jpg')
   },
   {
     id: 'wurm',
@@ -32,7 +34,7 @@ export const PROJECTS: Project[] = [
     description: 'WURM is a high-performance, rule-based generative art studio for modernist-inspired abstract posters. It uses a procedural duplication engine to stack primitive shapes along cubic Bézier paths, yielding flowing, ribbon-like structures with controlled, deterministic motion.',
     url: 'https://github.com/studio-neue-episteme/vortex-field',
     tags: ['VECTOR', 'GENERATIVE_DESIGN', 'ALGORITHMIC_ART'],
-    imageUrl: '/images/wurm.jpg'
+    imageUrl: imagePath('wurm.jpg')
   },
   {
     id: 'dr-5',
@@ -40,7 +42,7 @@ export const PROJECTS: Project[] = [
     description: 'An indeterminate web-based signal processor inspired by Cagean composition. Uses FFT analysis and stochastic modulation to generate audio-reactive ASCII diagnostics and spatial field visualizations in real time.',
     url: 'https://eg0pr0xy.github.io/dr5/',
     tags: ['WEB_AUDIO', 'EXPERIMENTAL_AUDIO', 'FFT'],
-    imageUrl: '/images/dr-5.jpg'
+    imageUrl: imagePath('dr-5.jpg')
   },
   {
     id: 'minimalist',
@@ -48,7 +50,7 @@ export const PROJECTS: Project[] = [
     description: 'Raymarching engine implemented in a single fragment shader. Explores non-euclidean geometry.',
     url: 'https://minimalist.sternbauer.com/',
     tags: ['RAYMARCHING', 'GLSL', 'SHADER'],
-    imageUrl: '/images/minimalist.jpg'
+    imageUrl: imagePath('minimalist.jpg')
   },
    {
     id: 'constructivist',
@@ -56,15 +58,15 @@ export const PROJECTS: Project[] = [
     description: 'Raymarching engine implemented in a single fragment shader. Explores non-euclidean geometry.',
     url: 'https://constructivist.sternbauer.com/',
     tags: ['RAYMARCHING', 'GLSL', 'SHADER'],
-    imageUrl: '/images/constructivist.jpg'    
+    imageUrl: imagePath('constructivist.jpg')
   },
      {
     id: 'hal',
     name: 'HAL',
     description: 'Raymarching engine implemented in a single fragment shader. Explores non-euclidean geometry.',
-    url: ' https://hal.sternbauer.com/',
+    url: 'https://hal.sternbauer.com/',
     tags: ['WEB_RADIO', 'HAL', 'EXPERIMENTAL_RADIO'],
-    imageUrl: '/images/hal.jpg'   
+    imageUrl: imagePath('hal.jpg')
   }
 ];
 

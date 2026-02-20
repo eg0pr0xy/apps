@@ -8,7 +8,7 @@ export const PROJECTS: Project[] = [
     id: 'godfeeder',
     name: 'GODFEEDER',
     description: 'An experimental granular synthesis instrument and signal ecology engine. GODFEEDER sacrifices live and streamed audio into stochastic grain clouds, translating broadcast fragments into evolving spectral architectures. Built with Web Audio, custom DSP chains and real-time ASCII diagnostics.',
-    url: 'https://linktr.ee/sternbauer',
+    url: 'https://www.youtube.com/watch?v=Rz_5LCsU-Qg',
     tags: ['WEB_AUDIO', ' GRANULAR_SYNTHESIS', 'EXPERIMENTAL_AUDIO'],
     imageUrl: imagePath('godfeeder.jpg')
   },

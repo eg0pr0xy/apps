@@ -32,7 +32,7 @@ export const PROJECTS: Project[] = [
     id: 'wurm',
     name: 'WURM',
     description: 'WURM is a high-performance, rule-based generative art studio for modernist-inspired abstract posters. It uses a procedural duplication engine to stack primitive shapes along cubic Bézier paths, yielding flowing, ribbon-like structures with controlled, deterministic motion.',
-    url: 'https://github.com/studio-neue-episteme/vortex-field',
+    url: 'https://eg0pr0xy.github.io/WURM/',
     tags: ['VECTOR', 'GENERATIVE_DESIGN', 'ALGORITHMIC_ART'],
     imageUrl: imagePath('wurm.jpg')
   },
